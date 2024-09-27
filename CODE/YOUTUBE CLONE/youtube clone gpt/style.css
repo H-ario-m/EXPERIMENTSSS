@@ -1,0 +1,136 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Navigation Bar */
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #202020;
+    padding: 40px 20px;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 8px;
+    border-radius:60px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 60px;
+
+}
+
+.user-icons i {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Main Content Area */
+.container {
+    display: flex;
+    padding: 20px;
+   background-color: #202020;
+    
+
+}
+
+/* Sidebar */
+aside {
+    width: 200px;
+    background-color:  #202020;
+    padding: 20px;
+    border-style: outset;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+aside ul li:hover {
+    background-color: #ddddddc2;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+/* Video Section */
+.video-section {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.video-card h4 {
+    margin: 10px 0 5px 0;
+}
+
+.video-card p {
+    color: #606060;
+    font-size: 14px;
+}
+
+li{
+    padding: 10px;
+    background-color: #202020;
+    color:white;
+}
+ul{
+    background-color: #202020;
+}
+
+.more{
+    background-color: #202020;
+    button{
+        background-color: #344438;
+        margin-left: 90px;
+        width: 80px;
+        height: 30px;
+        border-radius: 30px;
+
+    }
+}

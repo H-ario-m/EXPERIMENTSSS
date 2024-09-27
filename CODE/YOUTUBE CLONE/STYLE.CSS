@@ -1,0 +1,32 @@
+.header{
+background-color: antiquewhite;
+padding: 20px;
+text-align: center;
+
+}
+.sidebar{
+
+}
+.content{
+
+}
+body{
+    background-color: black;
+}
+#mysearch{
+    border-radius: 20px;
+    width: 300px;
+    height:30px;
+border-bottom: 10px;
+
+}
+#sear{
+    background-color:aquamarine;
+    opacity: 80%;
+    width:20px;
+    height: 20px;
+
+}
+.bar{
+    position: relative;
+}

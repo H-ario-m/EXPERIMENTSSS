@@ -1,0 +1,261 @@
+PROJECT 1 DAY1 
+
+
+
+HTML 
+
+
+<html>
+<head>
+<title>kuchbhi</title>      <!-- TITLE OF THE PAGE -->
+<!--FAVICON + DESCRIPTION(FORMAT 300 WORDS DESCRIPTION FOR COMPUTERS TO UNDERSTAND )+ IMAGE +CSS -->
+<BODY></body>
+</head>
+
+
+
+
+
+STYLESHEET/CSS
+
+1. Inline 
+2. external
+3. internal
+
+
+
+
+1.================= <p Style color:red>POlaris</p>
+
+2.==============   <p></p>===============style.css<head>  </head>
+
+3.============== <p></p>              ----    <head><style></style></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<BODY TAG>
+1-- HEADING -- TOTAL 6 HEADING TAGS h1.....h6
+
+2. PARAGRAPH -- 
+
+3 DIV TAG 
+
+
+</BODY>
+
+
+
+BLOCK ELEMENTS 
+.DIV
+.P
+.H1...H6
+.HEADER
+.FOOTER
+100% WIDTH
+
+
+
+
+
+
+INLINE BLOCK
+.IMG
+.<BUTTOM>
+.<A>
+.FORM
+.INPUT
+.LABEL
+
+
+
+
+
+HTML 4 AND HTML 5
+OLD      NEW TAGS
+
+
+
+
+
+==WNAT ARE CEMENTIC TAGS
+
+
+
+
+HTML 5 
+HEADER
+FOOTER
+<NAV>== NAVIGATION 
+<MAIN>=
+
+
+
+
+
+
+designing with css
+
+
+
+
+
+
+
+
+
+
+
+MOBILE RESPONSIVE 
+
+<meta>
+breakpoints / size
+mobile- 220px-767px
+tab- 768px-1023px
+desktop- 1024 to----
+
+
+
+
+
+
+
+
+
+
+
+////////////////////SHASHWAT SIR/////////////////
+
+
+                          STRING
+
+
+
+
+LET STR = "HELLO"
+
+STRING ARE OF TWO TYPES STRING AND STRING OBJECT
+
+A STRING PRIMITIVE IS THE BASIC WAY TO REPRESENT TEXT IN JS . IT IS CREATED USING STRING LITERALS AND IS IMMUTABLE
+STRING IS STORED AS 16BIT UNICODE CHARACTER SET
+
+
+
+UNICODE -- SET OF  
+
+
+
+A STRING OBJECT IS CREATED USING THE STRING CONSTRUCTOR AND IS A WRAPPER AROUND STRING PRIMITIVE 
+
+WRAPPER CLASS-- IS SOME ADDITIONAL FUNCTIONALITY 
+
+BOXING  
+
+
+
+
+///////////////////////Gaurav sir///////////////////////////////
+
+
+
+
+
+
+OBJECT STRING AND PRIMITIVE STRING
+
+let a="hello" ----------------- primitive string(type of is string)
+let b= new String("hello")--------------- not used to create a string(called an object string)(they have a lot of restrictions on the operations so we dp not ise it frequently)(typeof is object)
+
+
+
+
+let result=eval("10+32+23+22-34-12/9")--------- string is evaluated using the eval function
+
+
+
+TWO WAYS TO CREATE A STRING ---
+
+
+there are some restrictions on object but not string 
+
+
+
+
+STRING METHODS:
+
+
+
+toUpperCase()---- uppercase me convert kar dega
+
+toLowerCase()---- lowercase me kar dega convert
+
+trim()-- it will remove extra spaces from strring----"  sst   "===="sst"
+
+slice(a,b)--- it has 2 parameters starting and end index and the end will be excluded ==== "hello".slice(0,2)=== he        reverse indexing has the value in negative form last having -1,-2,-3 and there will be no zero "hello".slice(-3)=== llo 
+
+so agar hame
+
+substring(startIndex,endindex)----  (negative indwxing value is not possible)
+
+subStr(startindex,length(length mtlb jitne door tak leke jana h ))---- "hello".subStr(2,2)== ll(negative indexing value ios posible)
+
+charAt()--- character at the index is printed(deprecated/cancelled)
+
+trimEnd()---- remove space from the end
+
+trimStart()--- remove space from starting
+
+replace(beingReplaced,to replace with )----- mes="hello duniya" newmes=mes.replace(duniya,dood) replace kle sath //g daaal ke usko sare occurrence ke liye use kar sakte h 
+
+replaceAll()------ replaces allthe occurence of the word 
+
+
+replaceAll(/string/gi,newstring)--- g- is used for whole string and i stands for case insensetive
+
+split()---
+
+at()--- works like char at but negative indexing is noit possible in char at but in at its possible 
+
+
+
+
+DATE OBJECCT
+
+
+let d=new Date()
+console.log(d)
+console.log(d.getTime())//milliseconds
+console.log(d.getFullYear())
+console.log(d.getMonth())//0-11--jan-dec
+console.log(d.getDay())//0-6 sunday-saturday
+console.log(d.getHours())
+console.log(d.getMinutes())//minutes at moment of trunning
+console.log(d.getSeconds())//exact second at the moment of trunning
+console.log(d.getMilliseconds())//the ecact milisecond goung on now
+
+
+
+
+
+
+
+let 
+
+
+
+
+
+
+
+
+
+

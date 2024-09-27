@@ -1,0 +1,31 @@
+{
+   "item":[{ "name":"boat headphone",
+   "price":783,
+   "discount":70,
+   "originalprice":3232,
+   "rating":{
+       "rating":4.5,
+       "orders":9730
+   },
+   "isAvailable":true},{ "name":"boat headphone",
+   "price":783,
+   "discount":70,
+   "originalprice":3232,
+   "rating":{
+       "rating":4.5,
+       "orders":9730
+   },
+   "isAvailable":true},{ "name":"boat headphone",
+   "price":783,
+   "discount":70,
+   "originalprice":3232,
+   "rating":{
+       "rating":4.5,
+       "orders":9730
+   },
+   "isAvailable":true}]
+};
+
+const productContainer= document.getElementBYId("productcontainer");
+products.items.forEach((product))=>
+   
